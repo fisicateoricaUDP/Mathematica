@@ -1,6 +1,24 @@
 #!/usr/bin/env wolframscript
 (* ::Package:: *)
 
+(* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *)
+
+(* :Title: QED Vacuum Polarization															*)
+
+(*
+	
+	This software is covered by the GNU General Public License 3.
+	Copyright (C) 2022 Edilson A. Reyes R.
+  Copyright (C) 2022 Fabian C. Barajas R. 
+	
+*)
+
+(* :Summary:	This is a Mathematica routine for the calculation of the vacuum
+              polarization in QED at one-loop level. *)
+
+(* ------------------------------------------------------------------------ *)
+
+
 PrependTo[$Path,ToFileName[{"/Path","to","FeynCalc"}]];
 
 
