@@ -14,7 +14,7 @@
 	
 *)
 
-(* :Summary:	This is a Mathematica routine for the calculation of the vacuum
+(* :Summary:  This is a Mathematica routine for the calculation of the vacuum
               polarization in QED at one-loop level. *)
 
 (* ------------------------------------------------------------------------ *)
