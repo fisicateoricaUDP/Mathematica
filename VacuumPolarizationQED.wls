@@ -10,7 +10,7 @@
 	
 	This software is covered by the GNU General Public License 3.
 	Copyright (C) 2022 Edilson A. Reyes R.
-  Copyright (C) 2022 Fabian C. Barajas R. 
+        Copyright (C) 2022 Fabian C. Barajas R. 
 	
 *)
 
