@@ -1,5 +1,23 @@
 #!/usr/bin/env wolframscript
+
 (* ::Package:: *)
+
+(* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *)
+
+(* :Title: One-Loop Electron Self-Energy in QED.														*)
+
+(*
+	
+	This software is covered by the GNU General Public License 3.
+	Copyright (C) 2022 Edilson A. Reyes R.
+  Copyright (C) 2022 Cristian A. Lobo B. 
+	
+*)
+
+(* :Summary:  This is a Mathematica routine for the calculation of the electron
+              self-energy in QED at one-loop level. *)
+
+(* ------------------------------------------------------------------------ *)
 
 PrependTo[$Path,ToFileName[{"/home","edilson","bin","Feyncalc931","FeynCalc"}]];
 
@@ -65,7 +83,10 @@ res=OneLoop[k,Amp,Dimension->D,FeynCalcExternal->True] /. D-> 4 // Simplify
 Changes2 = {"ME" -> m,"EL"^2->4*Pi*\[Alpha],SP[a_, a_]->a^2}
 
 
-resmod = res /. Changes2 
+resmod = res /. Changes2; 
 
+resmod = Collect[resmod,GS[p]]
 
-Collect[resmod,GS[p]]
+Print["The End !"];
+
+Quit[];
