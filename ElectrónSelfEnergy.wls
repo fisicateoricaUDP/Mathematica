@@ -84,8 +84,8 @@ Changes2 = {"ME" -> m,"EL"^2->4*Pi*\[Alpha],SP[a_, a_]->a^2}
 
 
 resmod = res /. Changes2; 
-
 resmod = Collect[resmod,GS[p]]
+(** The final result is written in terms of Passarino-Veltmann functions. **)
 
 Print["The End !"];
 
