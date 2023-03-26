@@ -1,9 +1,27 @@
 #!/home/danielm/Programas -script
 
-(*****************************************************************************)
-(** This code was writted by Daniel Melo as part of his Master dissertation **) 
-(** under the supervision of Prof. Raffaele Fazio and Prof. Edilson Reyes.  **)
-(*****************************************************************************)
+(* ::Package:: *)
+
+(* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *)
+
+(* :Title: Short distance constraints from HLbL contribution to the muon 
+           anomalous magnetic moment.													*)
+
+(*
+	
+	This software is covered by the GNU General Public License 3.
+	Copyright (C) 2023 Daniel G. Melo P. 
+	Copyright (C) 2023 Edilson A. Reyes R.
+	Copyright (C) 2023 Angelo R. Fazio 
+        
+	
+*)
+
+(* :Summary:  This code was writted by Daniel Melo as part of his Master dissertation 
+              under the supervision of Prof. Raffaele Fazio and Prof. Edilson Reyes.
+
+(* ----------------------------------------------------------------------------------- *)
+
 
 $FeynCalcStartupMessages=False;
 Get["FeynCalc.m",Path -> "/Path/to/FeynCalc"];
