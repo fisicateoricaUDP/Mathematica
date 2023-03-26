@@ -17,8 +17,9 @@
 	
 *)
 
-(* :Summary:  This code was writted by Daniel Melo as part of his Master dissertation 
-              under the supervision of Prof. Raffaele Fazio and Prof. Edilson Reyes. *)
+(* :Summary:  This routine was writted by Daniel Melo as part of his Master dissertation 
+              under the supervision of Prof. Raffaele Fazio and Prof. Edilson Reyes. 
+	      The code can be consulted also in https://github.com/DanielMelo2000      *)
 
 (* ----------------------------------------------------------------------------------- *)
 
