@@ -5,7 +5,7 @@
 (* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *)
 
 (* :Title: Short distance constraints from HLbL contribution to the muon 
-           anomalous magnetic moment.													*)
+           anomalous magnetic moment.                                      *)
 
 (*
 	
@@ -18,7 +18,7 @@
 *)
 
 (* :Summary:  This code was writted by Daniel Melo as part of his Master dissertation 
-              under the supervision of Prof. Raffaele Fazio and Prof. Edilson Reyes.
+              under the supervision of Prof. Raffaele Fazio and Prof. Edilson Reyes. *)
 
 (* ----------------------------------------------------------------------------------- *)
 
