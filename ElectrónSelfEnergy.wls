@@ -19,12 +19,8 @@
 
 (* ------------------------------------------------------------------------ *)
 
-PrependTo[$Path,ToFileName[{"/home","edilson","bin","Feyncalc931","FeynCalc"}]];
-
 
 $LoadFeynArts=True;
-
-
 Get["FeynCalc.m"]
 
 
