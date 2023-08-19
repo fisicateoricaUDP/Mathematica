@@ -1,3 +1,24 @@
+(* ::Package:: *)
+
+(* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *)
+
+(* :Title: One-Loop W boson Self-Energy in the SM.													*)
+
+(*
+	
+	This software is covered by the GNU General Public License 3.
+	Copyright (C) 2023 Edilson A. Reyes R.
+  Copyright (C) 2023 Aldair A. Ramon B.  
+	
+*)
+
+(* :Summary:  This is a Mathematica routine for the calculation of a W boson
+              self-energy mediated by a Higgs boson in the SM at 
+              one-loop level.                                               *)
+
+(* ------------------------------------------------------------------------ *)
+
+
 $LoadAddOns = {"FeynArts"};
 Get["FeynCalc`"];
 
