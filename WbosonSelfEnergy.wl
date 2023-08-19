@@ -8,7 +8,7 @@
 	
 	This software is covered by the GNU General Public License 3.
 	Copyright (C) 2023 Edilson A. Reyes R.
-  Copyright (C) 2023 Aldair A. Ramon B.  
+        Copyright (C) 2023 Aldair A. Ramon B.  
 	
 *)
 
